@@ -103,7 +103,7 @@ export function generateWhelpingPDF(output: CalculatorOutput, dogName?: string):
   // Footer on Page 1
   doc.setFontSize(7);
   doc.setTextColor(148, 163, 184);
-  doc.text('WhelpWise Veterinary Reproductive Toolkit • Always consult your veterinarian for medical management.', 14, 287);
+  doc.text('Dog Pregnancy Calculator • Always consult your veterinarian for medical management.', 14, 287);
 
   // --- PAGE 2: Temperature Tracking Log Sheet ---
   doc.addPage();

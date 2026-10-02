@@ -11,7 +11,7 @@ export function generateICS(milestones: Milestone[], dogName?: string): string {
   const calendar = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//WhelpWise//Dog Pregnancy Calculator//EN',
+    'PRODID:-//Dog Pregnancy Calculator//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `X-WR-CALNAME:${calName}`,
@@ -28,7 +28,7 @@ export function generateICS(milestones: Milestone[], dogName?: string): string {
       `SUMMARY:${milestone.icon} [Day ${milestone.day}] ${milestone.title}`,
       `DESCRIPTION:${milestone.description.replace(/\n/g, '\\n')}`,
       `CATEGORIES:${milestone.category.toUpperCase()}`,
-      `UID:milestone-day-${milestone.day}-${dateStr}@whelpwise.com`,
+      `UID:milestone-day-${milestone.day}-${dateStr}@dogpregnancycalculator.com`,
       'STATUS:CONFIRMED',
       'TRANSP:TRANSPARENT',
       'END:VEVENT'

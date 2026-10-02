@@ -5,9 +5,9 @@ export default function StructuredData() {
   const webAppSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    'name': 'WhelpWise Dog Pregnancy Calculator',
-    'description': 'Free clinical dog pregnancy calculator. Calculate canine due date using mating date, ovulation, or LH peak with breed-specific litter sizes, C-section risks, and printable whelping calendar.',
-    'url': 'https://whelpwise.com/',
+    'name': 'Dog Pregnancy Calculator',
+    'description': 'Free dog pregnancy calculator. Calculate canine due date using mating date, ovulation, or LH peak with breed-specific litter sizes, C-section risks, and printable whelping calendar.',
+    'url': 'https://dog-pregnancy-calculator.pages.dev/',
     'applicationCategory': 'HealthApplication',
     'operatingSystem': 'Web, iOS, Android',
     'offers': {
@@ -17,7 +17,7 @@ export default function StructuredData() {
     },
     'author': {
       '@type': 'Organization',
-      'name': 'WhelpWise Canine Health'
+      'name': 'Dog Pregnancy Calculator'
     }
   };
 
@@ -84,13 +84,13 @@ export default function StructuredData() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://whelpwise.com/'
+        'item': 'https://dog-pregnancy-calculator.pages.dev/'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Dog Pregnancy Calculator',
-        'item': 'https://whelpwise.com/#calculator'
+        'item': 'https://dog-pregnancy-calculator.pages.dev/#calculator'
       }
     ]
   };

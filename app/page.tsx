@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Dr. Sarah Mitchell, DVM (Theriogenology)' }],
   openGraph: {
-    title: 'Dog Pregnancy Calculator & Whelping Calendar | WhelpWise',
+    title: 'Dog Pregnancy Calculator & Whelping Calendar',
     description:
       'Calculate your dog’s exact due date using mating date, ovulation, or LH peak. Download printable whelping milestones and pre-labor temperature log.',
     type: 'website',
@@ -59,16 +59,11 @@ export default function HomePage() {
 
         {/* HERO / H1 SECTION */}
         <div className="space-y-3">
-          <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-800 text-xs px-3 py-1 rounded-full font-semibold">
-            <ShieldCheck className="w-3.5 h-3.5 text-teal-600" />
-            <span>Medically Reviewed by Dr. Sarah Mitchell, DVM • Updated October 2026</span>
-          </div>
-
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             Dog Pregnancy Calculator
           </h1>
           <p className="text-base sm:text-lg text-slate-600 max-w-3xl leading-relaxed">
-            Calculate your dog&apos;s exact due date, export a custom whelping calendar to Google or Apple Calendar, generate a printable PDF temperature log, and follow week-by-week fetal milestones calibrated for 214+ breeds.
+            Expecting a litter of puppies? Use our free <strong>Dog Pregnancy Calculator</strong> to quickly find your dog&apos;s estimated due date, track her pregnancy week by week, and get ready for a happy, safe whelping day with breed-specific milestones.
           </p>
         </div>
 

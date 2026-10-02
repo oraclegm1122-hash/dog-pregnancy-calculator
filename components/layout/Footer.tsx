@@ -30,16 +30,12 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <span className="text-2xl">🐕</span>
               <span className="text-xl font-bold text-white tracking-tight">
-                Whelp<span className="text-teal-400">Wise</span>
+                Dog Pregnancy <span className="text-teal-400">Calculator</span>
               </span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Clinical-grade canine gestation calculations, research-backed developmental milestones, and whelping planning for pet parents and responsible breeders.
+              Accurate canine gestation calculations, research-backed developmental milestones, and whelping planning for pet parents and responsible breeders.
             </p>
-            <div className="flex items-center gap-2 text-xs text-teal-300 pt-2">
-              <ShieldCheck className="w-4 h-4 text-teal-400" />
-              <span>DVM Theriogenology Reviewed</span>
-            </div>
           </div>
 
           {/* Quick Calculators */}
@@ -77,7 +73,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} WhelpWise. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dog Pregnancy Calculator. All rights reserved.</p>
           <div className="flex gap-6">
             <span className="hover:text-slate-400 cursor-pointer">Privacy Policy</span>
             <span className="hover:text-slate-400 cursor-pointer">Terms of Service</span>
